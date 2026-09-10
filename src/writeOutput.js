@@ -33,20 +33,29 @@ function collectSpecKeys(products) {
 
 /**
  * Convert products to CSV string with wide format.
- * @param {Array<{ url: string, title: string, specifications?: Record<string, string>, error?: string }>} products
+ * @param {Array<{ url: string, title: string, slugTitle?: string, specifications?: Record<string, string>, specificationsSlugs?: Record<string, string>, error?: string }>} products
  * @returns {string}
  */
 export function productsToCsv(products) {
   const specKeys = collectSpecKeys(products);
-  const headers = ['url', 'title', 'error', ...specKeys];
+  const headers = [
+    'url',
+    'title',
+    'slugTitle',
+    'error',
+    ...specKeys,
+    ...specKeys.map((key) => `${key} slug`),
+  ];
   const rows = [headers.join(',')];
 
   for (const product of products) {
     const row = [
       escapeCsvField(product.url),
       escapeCsvField(product.title),
+      escapeCsvField(product.slugTitle ?? ''),
       escapeCsvField(product.error ?? ''),
       ...specKeys.map((key) => escapeCsvField(product.specifications?.[key] ?? '')),
+      ...specKeys.map((key) => escapeCsvField(product.specificationsSlugs?.[key] ?? '')),
     ];
     rows.push(row.join(','));
   }
@@ -56,7 +65,7 @@ export function productsToCsv(products) {
 
 /**
  * Write products to JSON and CSV files.
- * @param {Array<{ url: string, title: string, specifications?: Record<string, string>, error?: string }>} products
+ * @param {Array<{ url: string, title: string, slugTitle?: string, specifications?: Record<string, string>, specificationsSlugs?: Record<string, string>, error?: string }>} products
  * @param {string} outputDir
  * @returns {Promise<{ jsonPath: string, csvPath: string }>}
  */

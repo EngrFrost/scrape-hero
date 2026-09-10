@@ -1,6 +1,7 @@
 import { readFile } from 'node:fs/promises';
 import { dirname, resolve } from 'node:path';
 import { fileURLToPath } from 'node:url';
+import { fetchCollectionProductUrls, normalizeCollectionHandle } from './collection.js';
 import { fetchPage, isProductUrl } from './fetchPage.js';
 import { parseSpecs } from './parseSpecs.js';
 import { writeOutput } from './writeOutput.js';
@@ -23,13 +24,14 @@ function sleep(ms) {
 /**
  * Parse CLI arguments.
  * @param {string[]} argv
- * @returns {{ urlsFile?: string, urls: string[], outputDir: string }}
+ * @returns {{ urlsFile?: string, urls: string[], outputDir: string, collection?: string }}
  */
 function parseArgs(argv) {
   /** @type {string[]} */
   const urls = [];
   let urlsFile;
   let outputDir = 'output';
+  let collection;
 
   for (let i = 0; i < argv.length; i++) {
     const arg = argv[i];
@@ -37,12 +39,14 @@ function parseArgs(argv) {
       urlsFile = argv[++i];
     } else if (arg === '--output' && argv[i + 1]) {
       outputDir = argv[++i];
+    } else if (arg === '--collection' && argv[i + 1]) {
+      collection = argv[++i];
     } else if (arg.startsWith('http')) {
       urls.push(arg);
     }
   }
 
-  return { urlsFile, urls, outputDir };
+  return { urlsFile, urls, outputDir, collection };
 }
 
 /**
@@ -60,10 +64,20 @@ async function loadUrlsFromFile(filePath) {
 
 /**
  * Resolve the list of URLs to scrape.
- * @param {{ urlsFile?: string, urls: string[] }} args
+ * @param {{ urlsFile?: string, urls: string[], collection?: string }} args
  * @returns {Promise<string[]>}
  */
-async function resolveUrls({ urlsFile, urls }) {
+async function resolveUrls({ urlsFile, urls, collection }) {
+  if (collection) {
+    const handle = normalizeCollectionHandle(collection);
+    console.log(`Expanding collection "${handle}"...`);
+    const productUrls = await fetchCollectionProductUrls(handle, {
+      delayMs: REQUEST_DELAY_MS,
+    });
+    console.log(`Found ${productUrls.length} product URL(s) in collection "${handle}"`);
+    return productUrls;
+  }
+
   if (urlsFile) {
     const filePath = resolve(projectRoot, urlsFile);
     const fromFile = await loadUrlsFromFile(filePath);
@@ -88,13 +102,14 @@ async function resolveUrls({ urlsFile, urls }) {
 /**
  * Scrape a single product URL.
  * @param {string} url
- * @returns {Promise<{ url: string, title: string, specifications?: Record<string, string>, error?: string }>}
+ * @returns {Promise<{ url: string, title: string, slugTitle: string, specifications?: Record<string, string>, error?: string }>}
  */
 async function scrapeProduct(url) {
   if (!isProductUrl(url)) {
     return {
       url,
       title: '',
+      slugTitle: '',
       error: `Invalid product URL (must be a fleet-hero.com /products/ page): ${url}`,
     };
   }
@@ -107,6 +122,7 @@ async function scrapeProduct(url) {
     return {
       url,
       title: '',
+      slugTitle: '',
       error: message,
     };
   }
@@ -115,7 +131,7 @@ async function scrapeProduct(url) {
 async function main() {
   const args = parseArgs(process.argv.slice(2));
   const urls = await resolveUrls(args);
-  /** @type {Array<{ url: string, title: string, specifications?: Record<string, string>, error?: string }>} */
+  /** @type {Array<{ url: string, title: string, slugTitle: string, specifications?: Record<string, string>, error?: string }>} */
   const results = [];
 
   console.log(`Scraping ${urls.length} product URL(s)...`);

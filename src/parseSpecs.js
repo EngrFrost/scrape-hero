@@ -1,4 +1,5 @@
 import * as cheerio from 'cheerio';
+import { slugTitleFrom, specificationsSlugsFrom } from './slugTitle.js';
 
 /**
  * Split a line like "Label: value" on the first colon.
@@ -84,17 +85,19 @@ function extractTitle($) {
  * Parse product specifications from Fleet Hero product page HTML.
  * @param {string} html
  * @param {string} url
- * @returns {{ url: string, title: string, specifications?: Record<string, string>, error?: string }}
+ * @returns {{ url: string, title: string, slugTitle: string, specifications?: Record<string, string>, specificationsSlugs?: Record<string, string>, error?: string }}
  */
 export function parseSpecs(html, url) {
   const $ = cheerio.load(html);
   const title = extractTitle($);
+  const slugTitle = slugTitleFrom(title);
   const contentPanel = findSpecificationsPanel($);
 
   if (!contentPanel || contentPanel.length === 0) {
     return {
       url,
       title,
+      slugTitle,
       error: 'Specifications accordion not found',
     };
   }
@@ -115,6 +118,7 @@ export function parseSpecs(html, url) {
     return {
       url,
       title,
+      slugTitle,
       error: 'Specifications accordion found but contained no parseable lines',
     };
   }
@@ -122,6 +126,8 @@ export function parseSpecs(html, url) {
   return {
     url,
     title,
+    slugTitle,
     specifications,
+    specificationsSlugs: specificationsSlugsFrom(specifications, slugTitle),
   };
 }

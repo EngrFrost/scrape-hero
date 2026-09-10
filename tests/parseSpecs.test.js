@@ -18,8 +18,17 @@ test('parseSpecs extracts title and specifications from accordion HTML', () => {
 
   assert.equal(result.url, EXPECTED_URL);
   assert.equal(result.title, 'Winch Strap with Flat Hook 4" x 30\'');
+  assert.equal(result.slugTitle, 'winch-strap-with-flat-hook-4-x-30');
   assert.equal(result.error, undefined);
   assert.equal(result.specifications['Width'], '4 inches');
+  assert.equal(
+    result.specificationsSlugs['Width'],
+    'width-winch-strap-with-flat-hook-4-x-30'
+  );
+  assert.equal(
+    result.specificationsSlugs['Working Load Limit (WLL)'],
+    'working-load-limit-wll-winch-strap-with-flat-hook-4-x-30'
+  );
   assert.equal(result.specifications['Available Lengths'], '30 feet / 40 feet');
   assert.equal(result.specifications['Working Load Limit (WLL)'], '5,400 lbs');
   assert.equal(result.specifications['Break Strength (BS)'], '16,200 lbs');
@@ -45,7 +54,9 @@ test('parseSpecs returns error when Specifications accordion is missing', () => 
   const result = parseSpecs(html, 'https://fleet-hero.com/products/test');
 
   assert.equal(result.title, 'Test Product');
+  assert.equal(result.slugTitle, 'test-product');
   assert.equal(result.specifications, undefined);
+  assert.equal(result.specificationsSlugs, undefined);
   assert.match(result.error, /Specifications accordion not found/i);
 });
 

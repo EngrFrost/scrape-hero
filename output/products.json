@@ -2,6 +2,7 @@
   {
     "url": "https://fleet-hero.com/products/winch-strap-with-flat-hook",
     "title": "Winch Strap with Flat Hook 4\" x 30'",
+    "slugTitle": "winch-strap-with-flat-hook-4-x-30",
     "specifications": {
       "Width": "4 inches",
       "Available Lengths": "30 feet / 40 feet",
@@ -13,6 +14,624 @@
       "Application": "Flatbed cargo securement, step deck tie-down, lumber, steel, machinery, equipment hauling",
       "Compliance": "Designed to support FMCSA 49 CFR Part 393 cargo securement standards",
       "Ideal For": "Flatbed trailers, step decks, RGN trailers, owner-operators, fleet drivers, heavy haul operators"
+    },
+    "specificationsSlugs": {
+      "Width": "width-winch-strap-with-flat-hook-4-x-30",
+      "Available Lengths": "available-lengths-winch-strap-with-flat-hook-4-x-30",
+      "Working Load Limit (WLL)": "working-load-limit-wll-winch-strap-with-flat-hook-4-x-30",
+      "Break Strength (BS)": "break-strength-bs-winch-strap-with-flat-hook-4-x-30",
+      "Hook Type": "hook-type-winch-strap-with-flat-hook-4-x-30",
+      "Webbing Color": "webbing-color-winch-strap-with-flat-hook-4-x-30",
+      "Branding": "branding-winch-strap-with-flat-hook-4-x-30",
+      "Application": "application-winch-strap-with-flat-hook-4-x-30",
+      "Compliance": "compliance-winch-strap-with-flat-hook-4-x-30",
+      "Ideal For": "ideal-for-winch-strap-with-flat-hook-4-x-30"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/ratchet-load-binder-with-folding-handle",
+    "title": "Ratchet Load Binder With Folding Handle",
+    "slugTitle": "ratchet-load-binder-with-folding-handle",
+    "specifications": {
+      "Type": "Ratchet load binder",
+      "Chain Compatibility": "5/16\" to 3/8\"",
+      "Working Load Limit": "7,100lb",
+      "Handle Style": "Patented folding handle",
+      "Adjustment Modes": "Extension, take-up, free spin",
+      "Stopper": "Yes — built-in for controlled chain engagement",
+      "Security Feature": "QuikBinder Lock (tamper resistance and accidental release prevention)",
+      "Primary Applications": "Flatbed cargo securement, G70 chain tensioning, heavy equipment transport, commercial trucking"
+    },
+    "specificationsSlugs": {
+      "Type": "type-ratchet-load-binder-with-folding-handle",
+      "Chain Compatibility": "chain-compatibility-ratchet-load-binder-with-folding-handle",
+      "Working Load Limit": "working-load-limit-ratchet-load-binder-with-folding-handle",
+      "Handle Style": "handle-style-ratchet-load-binder-with-folding-handle",
+      "Adjustment Modes": "adjustment-modes-ratchet-load-binder-with-folding-handle",
+      "Stopper": "stopper-ratchet-load-binder-with-folding-handle",
+      "Security Feature": "security-feature-ratchet-load-binder-with-folding-handle",
+      "Primary Applications": "primary-applications-ratchet-load-binder-with-folding-handle"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/ratchet-load-binder-for-chains",
+    "title": "Ratchet Load Binder for chains",
+    "slugTitle": "ratchet-load-binder-for-chains",
+    "specifications": {
+      "Chain Size Compatibility": "5/16\" - 3/8\"",
+      "Working Load Limit (WLL)": "6,600 lbs",
+      "Binder Type": "Ratchet",
+      "Material": "Forged Steel",
+      "Variants": "",
+      "- 1 pc": "5/16\"-3/8\", 6,600 lb WLL, with stopper",
+      "- 5-piece bulk case": "47.4 lb | 15.4 x 15.4 x 6.5 in",
+      "Bulk Case Weight": "47.4 lb",
+      "Bulk Case Dimensions": "15.4 x 15.4 x 6.5 in",
+      "Applications": "Flatbed cargo securement, heavy equipment transport, construction material hauling, DOT-regulated load securement, chain rigging assemblies"
+    },
+    "specificationsSlugs": {
+      "Chain Size Compatibility": "chain-size-compatibility-ratchet-load-binder-for-chains",
+      "Working Load Limit (WLL)": "working-load-limit-wll-ratchet-load-binder-for-chains",
+      "Binder Type": "binder-type-ratchet-load-binder-for-chains",
+      "Material": "material-ratchet-load-binder-for-chains",
+      "Variants": "variants-ratchet-load-binder-for-chains",
+      "- 1 pc": "1-pc-ratchet-load-binder-for-chains",
+      "- 5-piece bulk case": "5-piece-bulk-case-ratchet-load-binder-for-chains",
+      "Bulk Case Weight": "bulk-case-weight-ratchet-load-binder-for-chains",
+      "Bulk Case Dimensions": "bulk-case-dimensions-ratchet-load-binder-for-chains",
+      "Applications": "applications-ratchet-load-binder-for-chains"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/g70-transport-chain-3-8-x-20-wll-6600-lbs",
+    "title": "G70 Transport Chain 3/8\" x 20', WLL 6600 lbs",
+    "slugTitle": "g70-transport-chain-3-8-x-20-wll-6600-lbs",
+    "specifications": {
+      "Grade": "G70 (Grade 70 Transport Chain)",
+      "Chain Diameter": "3/8\"",
+      "Length": "20 ft",
+      "Working Load Limit (WLL)": "6,600 lbs",
+      "Break Strength (BS)": "26,400 lbs",
+      "Finish": "Gold Chromate",
+      "Standard": "NACM Grade 70",
+      "Variants": "",
+      "- Single unit": "3/8\" x 20 ft, WLL 6,600 lbs, BS 26,400 lbs",
+      "- 50-piece bulk case": "1,446.4 lb | 23.6 x 23.6 x 44.1 in",
+      "Bulk Case Weight": "1,446.4 lb",
+      "Bulk Case Dimensions": "23.6 x 23.6 x 44.1 in",
+      "Applications": "Flatbed cargo securement, heavy equipment transport, steel and lumber hauling, DOT-regulated load securement, chain tie-down assemblies"
+    },
+    "specificationsSlugs": {
+      "Grade": "grade-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Chain Diameter": "chain-diameter-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Length": "length-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Working Load Limit (WLL)": "working-load-limit-wll-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Break Strength (BS)": "break-strength-bs-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Finish": "finish-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Standard": "standard-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Variants": "variants-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "- Single unit": "single-unit-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "- 50-piece bulk case": "50-piece-bulk-case-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Bulk Case Weight": "bulk-case-weight-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Bulk Case Dimensions": "bulk-case-dimensions-g70-transport-chain-3-8-x-20-wll-6600-lbs",
+      "Applications": "applications-g70-transport-chain-3-8-x-20-wll-6600-lbs"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/corner-protector-plastic-4",
+    "title": "Corner protector plastic 4''",
+    "slugTitle": "corner-protector-plastic-4",
+    "specifications": {
+      "Dimension": "4\" x 5-1/4\"",
+      "Weight": "0.20",
+      "Size": "4",
+      "Material": "Plastic",
+      "PCP color": "Red",
+      "Bundle size": "4\" Red"
+    },
+    "specificationsSlugs": {
+      "Dimension": "dimension-corner-protector-plastic-4",
+      "Weight": "weight-corner-protector-plastic-4",
+      "Size": "size-corner-protector-plastic-4",
+      "Material": "material-corner-protector-plastic-4",
+      "PCP color": "pcp-color-corner-protector-plastic-4",
+      "Bundle size": "bundle-size-corner-protector-plastic-4"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/rubber-tarp-strap",
+    "title": "Rubber Tarp Strap",
+    "slugTitle": "rubber-tarp-strap",
+    "specifications": {
+      "Natural Length": "9 inches, 21 inches and 31 inches",
+      "Material": "Natural rubber (Sri Lanka)",
+      "Hook Material": "Galvanized steel",
+      "Hook Style": "S-hook, crimped on one end",
+      "Color": "Black",
+      "Weight": "11.40 lbs (per box of 50)",
+      "Bundle Size": "50-Pack",
+      "Adjustable": "No — non-adjustable bungee style",
+      "Cold-Weather Rating": "Retains elasticity in freezing temperatures; recommended for Canada and northern USA",
+      "UV Resistance": "Moderate — natural rubber is less UV resistant than synthetic; consider synthetic for high-UV regions",
+      "Primary Applications": "Flatbed tarp securement, commercial tarping, cargo cover attachment, cold-weather trucking operations"
+    },
+    "specificationsSlugs": {
+      "Natural Length": "natural-length-rubber-tarp-strap",
+      "Material": "material-rubber-tarp-strap",
+      "Hook Material": "hook-material-rubber-tarp-strap",
+      "Hook Style": "hook-style-rubber-tarp-strap",
+      "Color": "color-rubber-tarp-strap",
+      "Weight": "weight-rubber-tarp-strap",
+      "Bundle Size": "bundle-size-rubber-tarp-strap",
+      "Adjustable": "adjustable-rubber-tarp-strap",
+      "Cold-Weather Rating": "cold-weather-rating-rubber-tarp-strap",
+      "UV Resistance": "uv-resistance-rubber-tarp-strap",
+      "Primary Applications": "primary-applications-rubber-tarp-strap"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/winch-bar",
+    "title": "Winch Bar",
+    "slugTitle": "winch-bar",
+    "specifications": {
+      "Weight (lbs)": "7.05",
+      "Size": "40 Inc",
+      "Diameter": "1.3",
+      "Style": "Combination Bars with Square Head",
+      "Color": "Black",
+      "Material": "Steel"
+    },
+    "specificationsSlugs": {
+      "Weight (lbs)": "weight-lbs-winch-bar",
+      "Size": "size-winch-bar",
+      "Diameter": "diameter-winch-bar",
+      "Style": "style-winch-bar",
+      "Color": "color-winch-bar",
+      "Material": "material-winch-bar"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/strap-wider-a",
+    "title": "Strap Winder Side Rail Type",
+    "slugTitle": "strap-winder-side-rail-type",
+    "specifications": {
+      "Weight (lbs)": "2.35",
+      "Bundle Size": "1-Pack",
+      "Color": "Zinc Plated"
+    },
+    "specificationsSlugs": {
+      "Weight (lbs)": "weight-lbs-strap-winder-side-rail-type",
+      "Bundle Size": "bundle-size-strap-winder-side-rail-type",
+      "Color": "color-strap-winder-side-rail-type"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/ratchet-strap-with-flat-hook",
+    "title": "Ratchet Strap with Flat Hook",
+    "slugTitle": "ratchet-strap-with-flat-hook",
+    "specifications": {
+      "Width": "2 inches",
+      "Length": "27 feet",
+      "Weight": "5.8 lbs",
+      "End Hardware": "Flat Hook",
+      "Working Load Limit": "3,335 lbs",
+      "Breaking Strength": "10,000 lbs",
+      "Fixed End Length": "18 inches",
+      "Webbing Material": "Polyester",
+      "Compliance": "DOT regulated, WSTDA recommended standards"
+    },
+    "specificationsSlugs": {
+      "Width": "width-ratchet-strap-with-flat-hook",
+      "Length": "length-ratchet-strap-with-flat-hook",
+      "Weight": "weight-ratchet-strap-with-flat-hook",
+      "End Hardware": "end-hardware-ratchet-strap-with-flat-hook",
+      "Working Load Limit": "working-load-limit-ratchet-strap-with-flat-hook",
+      "Breaking Strength": "breaking-strength-ratchet-strap-with-flat-hook",
+      "Fixed End Length": "fixed-end-length-ratchet-strap-with-flat-hook",
+      "Webbing Material": "webbing-material-ratchet-strap-with-flat-hook",
+      "Compliance": "compliance-ratchet-strap-with-flat-hook"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/strap-wider-side-rail-type",
+    "title": "Strap Winder Assembly",
+    "slugTitle": "strap-winder-assembly",
+    "specifications": {
+      "Weight (lbs)": "2.65",
+      "Color": "Black"
+    },
+    "specificationsSlugs": {
+      "Weight (lbs)": "weight-lbs-strap-winder-assembly",
+      "Color": "color-strap-winder-assembly"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+    "title": "Ratchet Load Binder Lever Type 3/8\" - 1/2\" WLL9,200lbs",
+    "slugTitle": "ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+    "specifications": {
+      "Type": "Lever-type load binder",
+      "Chain Compatibility": "3/8\" to 1/2\" transport chain",
+      "Working Load Limit (WLL)": "9,200 lbs",
+      "Material": "High-strength steel",
+      "Finish": "Corrosion-resistant coating",
+      "Application": "Flatbed cargo securement, heavy haul chain tensioning, DOT-compliant load binding",
+      "Compatible Chain Grades": "G70, G80 transport chain",
+      "Ideal For": "Flatbed trailers, step decks, RGN trailers, owner-operators, fleet drivers, heavy haul operators",
+      "Compliance": "Designed to support FMCSA 49 CFR Part 393 cargo securement standards"
+    },
+    "specificationsSlugs": {
+      "Type": "type-ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+      "Chain Compatibility": "chain-compatibility-ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+      "Working Load Limit (WLL)": "working-load-limit-wll-ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+      "Material": "material-ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+      "Finish": "finish-ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+      "Application": "application-ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+      "Compatible Chain Grades": "compatible-chain-grades-ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+      "Ideal For": "ideal-for-ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs",
+      "Compliance": "compliance-ratchet-load-binder-lever-type-3-8-1-2-wll9-200lbs"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/coil-rack",
+    "title": "Coil Rack",
+    "slugTitle": "coil-rack",
+    "specifications": {
+      "Length": "33 inches",
+      "Material": "10-gauge galvanized steel",
+      "Color": "Black",
+      "Weight": "38 lbs",
+      "Single-Rack Capacity": "Up to 10,000 lbs",
+      "Design Style": "Half-saddle for hardwood timber integration",
+      "Also Known As": "Coil chock, coil bunk"
+    },
+    "specificationsSlugs": {
+      "Length": "length-coil-rack",
+      "Material": "material-coil-rack",
+      "Color": "color-coil-rack",
+      "Weight": "weight-coil-rack",
+      "Single-Rack Capacity": "single-rack-capacity-coil-rack",
+      "Design Style": "design-style-coil-rack",
+      "Also Known As": "also-known-as-coil-rack"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/ratchet-strap-with-chain-anchor",
+    "title": "Ratchet Strap with Chain Anchor",
+    "slugTitle": "ratchet-strap-with-chain-anchor",
+    "specifications": {
+      "Weight (lbs)": "18.65",
+      "Load limit": "5,400 lbs",
+      "Capacity": "16,000 lbs",
+      "Ending fitting": "Chain Extension",
+      "Bundle Size": "1-Pack",
+      "Color": "Yellow",
+      "Material": "Polyester"
+    },
+    "specificationsSlugs": {
+      "Weight (lbs)": "weight-lbs-ratchet-strap-with-chain-anchor",
+      "Load limit": "load-limit-ratchet-strap-with-chain-anchor",
+      "Capacity": "capacity-ratchet-strap-with-chain-anchor",
+      "Ending fitting": "ending-fitting-ratchet-strap-with-chain-anchor",
+      "Bundle Size": "bundle-size-ratchet-strap-with-chain-anchor",
+      "Color": "color-ratchet-strap-with-chain-anchor",
+      "Material": "material-ratchet-strap-with-chain-anchor"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/plastic-corner-protector",
+    "title": "Plastic Corner Protector",
+    "slugTitle": "plastic-corner-protector",
+    "specifications": {
+      "Material": "Rigid Plastic",
+      "Dimensions": "8\" x 8\" x 12\" per unit",
+      "Profile": "90-degree corner guard",
+      "Variants": "",
+      "- 20 pcs box": "20.7 lb | 7.7 x 12.2 x 21.3 in",
+      "Bulk Box Weight": "20.7 lb",
+      "Bulk Box Dimensions": "7.7 x 12.2 x 21.3 in",
+      "Applications": "Flatbed strap and chain securement, pallet corner protection, lumber and steel edge guarding, crated machinery transport, warehouse freight handling, cargo damage prevention"
+    },
+    "specificationsSlugs": {
+      "Material": "material-plastic-corner-protector",
+      "Dimensions": "dimensions-plastic-corner-protector",
+      "Profile": "profile-plastic-corner-protector",
+      "Variants": "variants-plastic-corner-protector",
+      "- 20 pcs box": "20-pcs-box-plastic-corner-protector",
+      "Bulk Box Weight": "bulk-box-weight-plastic-corner-protector",
+      "Bulk Box Dimensions": "bulk-box-dimensions-plastic-corner-protector",
+      "Applications": "applications-plastic-corner-protector"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/metal-corner-protector",
+    "title": "Metal Corner Protector",
+    "slugTitle": "metal-corner-protector",
+    "specifications": {
+      "Material": "Steel with rubber lining",
+      "Color": "Silver / Black",
+      "Weight": "1.75 lbs",
+      "Style": "Corner protector with rubber lining and corner recess",
+      "Strap Compatibility": "1-3/4\" to 2\" web, cable, and chain",
+      "Primary Applications": "Flatbed cargo securement, sharp-edge load protection, commercial trucking, heavy freight, DOT-compliant tie-down setups"
+    },
+    "specificationsSlugs": {
+      "Material": "material-metal-corner-protector",
+      "Color": "color-metal-corner-protector",
+      "Weight": "weight-metal-corner-protector",
+      "Style": "style-metal-corner-protector",
+      "Strap Compatibility": "strap-compatibility-metal-corner-protector",
+      "Primary Applications": "primary-applications-metal-corner-protector"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/logistics-strap-with-e-track-hook",
+    "title": "Logistics Strap with E track Hook",
+    "slugTitle": "logistics-strap-with-e-track-hook",
+    "specifications": {
+      "Strap Width": "2 inches",
+      "Strap Length": "16 feet",
+      "Fixed End Length": "4 feet (approx.)",
+      "Fixed End to Ratchet": "51 inches",
+      "Working Load Limit": "1,333 lbs",
+      "Breaking Strength": "4,000 lbs",
+      "Capacity": "4,400 lbs",
+      "End Fitting": "E-track hook with ratchet",
+      "Webbing Material": "Polyester",
+      "Color": "Yellow",
+      "Weight": "2.2 lbs",
+      "Bundle Size": "1-Pack",
+      "Primary Applications": "Enclosed trailer cargo securement, cargo van logistics, E-track rail systems, freight and logistics operations"
+    },
+    "specificationsSlugs": {
+      "Strap Width": "strap-width-logistics-strap-with-e-track-hook",
+      "Strap Length": "strap-length-logistics-strap-with-e-track-hook",
+      "Fixed End Length": "fixed-end-length-logistics-strap-with-e-track-hook",
+      "Fixed End to Ratchet": "fixed-end-to-ratchet-logistics-strap-with-e-track-hook",
+      "Working Load Limit": "working-load-limit-logistics-strap-with-e-track-hook",
+      "Breaking Strength": "breaking-strength-logistics-strap-with-e-track-hook",
+      "Capacity": "capacity-logistics-strap-with-e-track-hook",
+      "End Fitting": "end-fitting-logistics-strap-with-e-track-hook",
+      "Webbing Material": "webbing-material-logistics-strap-with-e-track-hook",
+      "Color": "color-logistics-strap-with-e-track-hook",
+      "Weight": "weight-logistics-strap-with-e-track-hook",
+      "Bundle Size": "bundle-size-logistics-strap-with-e-track-hook",
+      "Primary Applications": "primary-applications-logistics-strap-with-e-track-hook"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/ratchet-strap-with-flat-hook-1",
+    "title": "Ratchet Strap with Flat Hook",
+    "slugTitle": "ratchet-strap-with-flat-hook",
+    "specifications": {
+      "Weight": "14.10",
+      "Size": "4in. x 30ft.",
+      "Load limit": "5,400 lbs",
+      "Capacity": "16,000 lbs",
+      "Ending Fitting": "Flat Hook",
+      "Bundle Size": "1-Pack",
+      "Color": "Yellow",
+      "Strap Width": "4 Inc",
+      "Strap Length": "30 feet",
+      "Material": "Polyester"
+    },
+    "specificationsSlugs": {
+      "Weight": "weight-ratchet-strap-with-flat-hook",
+      "Size": "size-ratchet-strap-with-flat-hook",
+      "Load limit": "load-limit-ratchet-strap-with-flat-hook",
+      "Capacity": "capacity-ratchet-strap-with-flat-hook",
+      "Ending Fitting": "ending-fitting-ratchet-strap-with-flat-hook",
+      "Bundle Size": "bundle-size-ratchet-strap-with-flat-hook",
+      "Color": "color-ratchet-strap-with-flat-hook",
+      "Strap Width": "strap-width-ratchet-strap-with-flat-hook",
+      "Strap Length": "strap-length-ratchet-strap-with-flat-hook",
+      "Material": "material-ratchet-strap-with-flat-hook"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/rubber-coil-mat",
+    "title": "Rubber Coil Mat",
+    "slugTitle": "rubber-coil-mat",
+    "specifications": {
+      "Length": "48 inches",
+      "Width": "6 inches",
+      "Thickness": "1/2 inch (0.5\")",
+      "Material": "High-density fiber-reinforced rubber",
+      "Color": "Black",
+      "Weight": "2.6 lbs",
+      "Bundle Size": "1-Pack",
+      "Primary Applications": "Steel coil transport, flatbed cargo stabilization, coil securement, heavy freight load protection"
+    },
+    "specificationsSlugs": {
+      "Length": "length-rubber-coil-mat",
+      "Width": "width-rubber-coil-mat",
+      "Thickness": "thickness-rubber-coil-mat",
+      "Material": "material-rubber-coil-mat",
+      "Color": "color-rubber-coil-mat",
+      "Weight": "weight-rubber-coil-mat",
+      "Bundle Size": "bundle-size-rubber-coil-mat",
+      "Primary Applications": "primary-applications-rubber-coil-mat"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/coil-cuff-coil-corner-protector",
+    "title": "Coil Cuff (Coil corner protector) 24\" Long",
+    "slugTitle": "coil-cuff-coil-corner-protector-24-long",
+    "specifications": {
+      "Length": "24 inches",
+      "Width": "3-3/8 inches",
+      "Height": "3-5/16 inches",
+      "Material": "High-strength steel with reinforced rubber padding",
+      "Color": "Black",
+      "Weight": "8.0 lbs (per pair)",
+      "Bundle Size": "Sold as a pair (set of 2)",
+      "Usage Note": "Not a load-bearing device; designed for coil edge protection and chain slippage prevention",
+      "Primary Applications": "Steel coil transport, flatbed cargo securement, coil edge protection, chain abrasion prevention"
+    },
+    "specificationsSlugs": {
+      "Length": "length-coil-cuff-coil-corner-protector-24-long",
+      "Width": "width-coil-cuff-coil-corner-protector-24-long",
+      "Height": "height-coil-cuff-coil-corner-protector-24-long",
+      "Material": "material-coil-cuff-coil-corner-protector-24-long",
+      "Color": "color-coil-cuff-coil-corner-protector-24-long",
+      "Weight": "weight-coil-cuff-coil-corner-protector-24-long",
+      "Bundle Size": "bundle-size-coil-cuff-coil-corner-protector-24-long",
+      "Usage Note": "usage-note-coil-cuff-coil-corner-protector-24-long",
+      "Primary Applications": "primary-applications-coil-cuff-coil-corner-protector-24-long"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/winch",
+    "title": "Winch",
+    "slugTitle": "winch",
+    "specifications": {
+      "Track Compatibility": "Standard Double L Track (LL Track)",
+      "Size": "4 inches (150mm), Standard Profile",
+      "Working Load Limit": "5,500 lbs",
+      "Breaking Strength": "16,500 lbs",
+      "Strap Compatibility": "2\", 3\", and 4\" straps",
+      "Weight": "7.15 lbs",
+      "Color": "Black",
+      "Locking Mechanism": "Fixing bolt and nut",
+      "Operation": "Manual",
+      "Primary Applications": "Flatbed cargo securement, strap tensioning, commercial trucking, trailer winch replacement and addition"
+    },
+    "specificationsSlugs": {
+      "Track Compatibility": "track-compatibility-winch",
+      "Size": "size-winch",
+      "Working Load Limit": "working-load-limit-winch",
+      "Breaking Strength": "breaking-strength-winch",
+      "Strap Compatibility": "strap-compatibility-winch",
+      "Weight": "weight-winch",
+      "Color": "color-winch",
+      "Locking Mechanism": "locking-mechanism-winch",
+      "Operation": "operation-winch",
+      "Primary Applications": "primary-applications-winch"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/corner-protector-plastic-36",
+    "title": "Corner protector plastic 36''",
+    "slugTitle": "corner-protector-plastic-36",
+    "specifications": {
+      "Overall Length": "36 inches",
+      "Side Drop": "8 inches on each side",
+      "Width": "11 inches",
+      "Tie-Down Capacity": "Up to 5 tie-downs, each up to 4\" wide",
+      "Material": "High-Density Polyethylene (HDPE)",
+      "Color": "Blue",
+      "Weight": "3.40 lbs",
+      "UV Resistance": "Yes",
+      "Reusable": "Yes",
+      "Primary Applications": "Flatbed cargo securement, masonry and concrete product transport, pallet edge protection, strap abrasion prevention"
+    },
+    "specificationsSlugs": {
+      "Overall Length": "overall-length-corner-protector-plastic-36",
+      "Side Drop": "side-drop-corner-protector-plastic-36",
+      "Width": "width-corner-protector-plastic-36",
+      "Tie-Down Capacity": "tie-down-capacity-corner-protector-plastic-36",
+      "Material": "material-corner-protector-plastic-36",
+      "Color": "color-corner-protector-plastic-36",
+      "Weight": "weight-corner-protector-plastic-36",
+      "UV Resistance": "uv-resistance-corner-protector-plastic-36",
+      "Reusable": "reusable-corner-protector-plastic-36",
+      "Primary Applications": "primary-applications-corner-protector-plastic-36"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/winch-strap-with-flat-hook-4-x-40",
+    "title": "Winch Strap with Flat Hook 4\" x 40'",
+    "slugTitle": "winch-strap-with-flat-hook-4-x-40",
+    "specifications": {
+      "Width": "4 inches",
+      "Available Lengths": "30 feet / 40 feet",
+      "Working Load Limit (WLL)": "5,400 lbs",
+      "Break Strength (BS)": "16,200 lbs",
+      "Hook Type": "Flat hook",
+      "Webbing Color": "Yellow",
+      "Branding": "Fleet Hero logo",
+      "Application": "Flatbed cargo securement, step deck tie-down, lumber, steel, machinery, equipment hauling",
+      "Compliance": "Designed to support FMCSA 49 CFR Part 393 cargo securement standards",
+      "Ideal For": "Flatbed trailers, step decks, RGN trailers, owner-operators, fleet drivers, heavy haul operators"
+    },
+    "specificationsSlugs": {
+      "Width": "width-winch-strap-with-flat-hook-4-x-40",
+      "Available Lengths": "available-lengths-winch-strap-with-flat-hook-4-x-40",
+      "Working Load Limit (WLL)": "working-load-limit-wll-winch-strap-with-flat-hook-4-x-40",
+      "Break Strength (BS)": "break-strength-bs-winch-strap-with-flat-hook-4-x-40",
+      "Hook Type": "hook-type-winch-strap-with-flat-hook-4-x-40",
+      "Webbing Color": "webbing-color-winch-strap-with-flat-hook-4-x-40",
+      "Branding": "branding-winch-strap-with-flat-hook-4-x-40",
+      "Application": "application-winch-strap-with-flat-hook-4-x-40",
+      "Compliance": "compliance-winch-strap-with-flat-hook-4-x-40",
+      "Ideal For": "ideal-for-winch-strap-with-flat-hook-4-x-40"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/corner-protector-extension-8-ft",
+    "title": "Corner protector extension 8 FT",
+    "slugTitle": "corner-protector-extension-8-ft",
+    "specifications": {
+      "Collapsed Length": "62 inches",
+      "Shipping Dimensions": "72 in. (L) x 12 in. (W) x 12 in. (H)",
+      "Weight": "7.00 lbs",
+      "Handle Material": "Steel — high-visibility Chrome and Orange finish",
+      "Head Material": "High-Density Polyethylene (HDPE) and Aluminum",
+      "Corrosion Resistance": "Rust-free HDPE and aluminum head construction",
+      "Corner Protector Compatibility": "Universal — fits all standard corner protector types",
+      "Available Configurations": "1PC, 2PC, and 4PC complete sets"
+    },
+    "specificationsSlugs": {
+      "Collapsed Length": "collapsed-length-corner-protector-extension-8-ft",
+      "Shipping Dimensions": "shipping-dimensions-corner-protector-extension-8-ft",
+      "Weight": "weight-corner-protector-extension-8-ft",
+      "Handle Material": "handle-material-corner-protector-extension-8-ft",
+      "Head Material": "head-material-corner-protector-extension-8-ft",
+      "Corrosion Resistance": "corrosion-resistance-corner-protector-extension-8-ft",
+      "Corner Protector Compatibility": "corner-protector-compatibility-corner-protector-extension-8-ft",
+      "Available Configurations": "available-configurations-corner-protector-extension-8-ft"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/u-bolt",
+    "title": "Cab rack U-BOLT install kit",
+    "slugTitle": "cab-rack-u-bolt-install-kit",
+    "specifications": {
+      "Weight (lbs)": "13.05",
+      "Size": "14\"",
+      "Color": "Silver",
+      "Thickness": "5/8\"",
+      "Material": "Steel"
+    },
+    "specificationsSlugs": {
+      "Weight (lbs)": "weight-lbs-cab-rack-u-bolt-install-kit",
+      "Size": "size-cab-rack-u-bolt-install-kit",
+      "Color": "color-cab-rack-u-bolt-install-kit",
+      "Thickness": "thickness-cab-rack-u-bolt-install-kit",
+      "Material": "material-cab-rack-u-bolt-install-kit"
+    }
+  },
+  {
+    "url": "https://fleet-hero.com/products/pipe-stake",
+    "title": "Pipe Stake",
+    "slugTitle": "pipe-stake",
+    "specifications": {
+      "Length": "48 inches",
+      "Width": "3-1/8 inches",
+      "Depth": "1-1/2 inches",
+      "Wall Thickness": "1/8 inch",
+      "Weight": "17 lbs",
+      "Material": "Steel",
+      "Primary Applications": "Pipe and lumber containment, flatbed cargo securement, cylindrical load stabilization, stake pocket mounting"
+    },
+    "specificationsSlugs": {
+      "Length": "length-pipe-stake",
+      "Width": "width-pipe-stake",
+      "Depth": "depth-pipe-stake",
+      "Wall Thickness": "wall-thickness-pipe-stake",
+      "Weight": "weight-pipe-stake",
+      "Material": "material-pipe-stake",
+      "Primary Applications": "primary-applications-pipe-stake"
     }
   }
 ]

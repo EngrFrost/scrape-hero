@@ -1,15 +1,16 @@
 const USER_AGENT = 'FleetHeroSpecsScraper/1.0 (+https://fleet-hero.com)';
 
 /**
- * Fetch HTML content from a product URL.
+ * Fetch a URL and throw if the response is not OK.
  * @param {string} url
- * @returns {Promise<string>}
+ * @param {Record<string, string>} acceptHeaders
+ * @returns {Promise<Response>}
  */
-export async function fetchPage(url) {
+async function fetchOk(url, acceptHeaders) {
   const response = await fetch(url, {
     headers: {
       'User-Agent': USER_AGENT,
-      Accept: 'text/html,application/xhtml+xml',
+      ...acceptHeaders,
     },
   });
 
@@ -17,7 +18,31 @@ export async function fetchPage(url) {
     throw new Error(`HTTP ${response.status} for ${url}`);
   }
 
+  return response;
+}
+
+/**
+ * Fetch HTML content from a product URL.
+ * @param {string} url
+ * @returns {Promise<string>}
+ */
+export async function fetchPage(url) {
+  const response = await fetchOk(url, {
+    Accept: 'text/html,application/xhtml+xml',
+  });
   return response.text();
+}
+
+/**
+ * Fetch JSON from a URL.
+ * @param {string} url
+ * @returns {Promise<unknown>}
+ */
+export async function fetchJson(url) {
+  const response = await fetchOk(url, {
+    Accept: 'application/json',
+  });
+  return response.json();
 }
 
 /**
